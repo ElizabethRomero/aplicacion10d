@@ -40,10 +40,14 @@
 }
 .tocada{
 	background:#0C6;
-	color: #0F9;
+	color: #999;
 	quotes:#FF0 solid 1px;
 }
-
+.tocada1{
+	background:#999;
+	color: #999;
+	quotes:#FF0 solid 1px;
+}
 .textonota{
 	position:relative;
 	top:80%;

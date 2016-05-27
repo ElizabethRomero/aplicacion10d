@@ -28,10 +28,10 @@ $(document).ready(function(e) {
 			$(this).removeClass('tocada');
 		});
 		$('.nota1').bind('touchstart', function(){
-			$(this).addClass('tocada');
+			$(this).addClass('tocada1');
 			audio.play($(this).attr('id'));
 		}).bind('touchend', function(){
-			$(this).removeClass('tocada');
+			$(this).removeClass('tocada1');
 		});
 	});
 });
